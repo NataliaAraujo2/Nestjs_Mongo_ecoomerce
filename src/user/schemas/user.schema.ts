@@ -1,0 +1,31 @@
+/* eslint-disable prettier/prettier */
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
+import { Document } from 'mongoose';
+import { Role } from 'src/auth/enums/role.enum';
+// import { Role } from 'src/auth/enums/role.enum';
+
+export type UserDocument = User & Document;
+
+@Schema()
+export class User {
+  @Prop()
+  username: string;
+
+  @Prop()
+  cpf: number;
+
+  @Prop()
+  birthdate: string;
+
+  @Prop()
+  email: string;
+
+  @Prop()
+  password: string;
+
+  @Prop()
+  roles: Role[];
+  
+}
+
+export const UserSchema = SchemaFactory.createForClass(User);
