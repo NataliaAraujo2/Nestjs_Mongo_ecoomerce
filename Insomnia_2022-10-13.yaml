@@ -1,0 +1,299 @@
+_type: export
+__export_format: 4
+__export_date: 2022-10-13T19:08:37.942Z
+__export_source: insomnia.desktop.app:v2022.6.0
+resources:
+  - _id: req_3e35caa1acd544a3baaeae2922f0631c
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665686961736
+    created: 1665686859482
+    url: http://localhost:3000/cart
+    name: addItemToCart
+    description: ""
+    method: POST
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1665686859482
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_4107308f1c5149e1863eaaa161fba8a8
+    parentId: null
+    modified: 1665685333603
+    created: 1665685333603
+    name: E-commerce/Mongo/Nest
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_0d300c954c914819b67208ebe761ca53
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665686901365
+    created: 1665686858092
+    url: http://localhost:3000/cart
+    name: Delete Cart
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1665686858092
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_d8da61946e524e00a7c22918a1311b11
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665687020768
+    created: 1665686856547
+    url: http://localhost:3000/cart/id
+    name: removeItemFromCart
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1665686856547
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_c95609c1bd4541c09b591c1e128d4eeb
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665686831977
+    created: 1665686810221
+    url: http://localhost:3000/auth/admin
+    name: Admin
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1665686810221
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_915989669cda4365b921a416838d9ed5
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665686727654
+    created: 1665686680762
+    url: http://localhost:3000/auth/register
+    name: User
+    description: ""
+    method: POST
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1665686680762
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_ed44e1e882174cbd94f751d4d541e104
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665686781226
+    created: 1665686679010
+    url: http://localhost:3000/auth/login
+    name: User Login
+    description: ""
+    method: POST
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1665686679010
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_81dc26a3005347ddacdb92abecc86884
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665686803572
+    created: 1665686675970
+    url: http://localhost:3000/auth/user
+    name: Users
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1665686675970
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_2f2aa343092649e4b024bb134fba9121
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665685994962
+    created: 1665685760048
+    url: http://localhost:3000/product/id
+    name: Product/Id
+    description: ""
+    method: DELETE
+    body:
+      mimeType: application/json
+      text: ""
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1665685760048
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_583eb2fd5e93412d9406351967a3956b
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665686007470
+    created: 1665685666877
+    url: http://localhost:3000/store/product/id
+    name: Product/Id
+    description: ""
+    method: PUT
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1665685666877
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_9e465cf72281420988e21c2bb6f9ba70
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665685688329
+    created: 1665685525277
+    url: http://localhost:3000/store/product/id
+    name: Product/Id
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1665685525277
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_c4de8676d5fe48e89e93d159bd9dac10
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665685513126
+    created: 1665685438432
+    url: http://localhost:3000/store/product
+    name: Product
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: ""
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1665685438432
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e253df700a00472e8fc99d92f4745001
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665685428807
+    created: 1665685337457
+    url: http://localhost:3000/store/product
+    name: Product
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1665685337457
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_83be5a3fa292ea31b647999271db97a41b7a19df
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665685333657
+    created: 1665685333657
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1665685333657
+    _type: environment
+  - _id: jar_83be5a3fa292ea31b647999271db97a41b7a19df
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665685333665
+    created: 1665685333665
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_f63f1cd8b1044c9c8583624ac682d873
+    parentId: wrk_4107308f1c5149e1863eaaa161fba8a8
+    modified: 1665685333610
+    created: 1665685333610
+    fileName: E-commerce/Mongo/Nest
+    contents: ""
+    contentType: yaml
+    _type: api_spec
