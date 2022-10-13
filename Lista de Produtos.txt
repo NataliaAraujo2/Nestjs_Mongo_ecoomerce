@@ -1,0 +1,21 @@
+name	 price 	description	category
+Shampoo 250ml	 R$ 25,00 	Acquafinish - para cabelos oleosos	Shampoo
+Condicionador 250ml	 R$ 25,00 	Acquafinish - para cabelos oleosos	Condicionador
+Máscara 250ml	 R$ 25,00 	Acquafinish - para cabelos oleosos	Máscara
+Nanno Frizz 250ml	 R$ 32,00 	Acquafinish - para cabelos oleosos	Finalizador
+Cristal Líquido 30ml	 R$ 18,00 	Acquafinish - para cabelos oleosos	Finalizador
+Hidro Pomada 150g	 R$ 36,00 	Acquafinish - para cabelos oleosos	Finalizador
+Hidro Pomada 50g	 R$ 17,00 	Acquafinish - para cabelos oleosos	Finalizador
+Shampoo Universal 300ml	 R$ 16,00 	Clássico - para todos os tipos de cabelo	Shampoo
+Cond. Universal 300ml	 R$ 16,00 	Clássico - para todos os tipos de cabelo	Condicionador
+Shampoo Mentolado 300ml	 R$ 16,00 	Clássico - para todos os tipos de cabelo	Shampoo
+Cond. Mentolado 300ml	 R$ 16,00 	Clássico - para todos os tipos de cabelo	Condicionador
+Shampoo Pós-Química 300ml	 R$ 16,00 	Clássico - para todos os tipos de cabelo	Shampoo
+Cond. Pós-Química 300ml	 R$ 16,00 	Clássico - para todos os tipos de cabelo	Condicionador
+Máscara Universal 350g	 R$ 26,00 	Clássico - para todos os tipos de cabelo	Máscara
+Máscara Whey Protein 350g	 R$ 26,00 	Clássico - para todos os tipos de cabelo	Máscara
+Shampoo 300ml	 R$ 25,00 	Diáfora - para cabelos cacheados	Shampoo
+Condicionador 300ml	 R$ 25,00 	Diáfora - para cabelos cacheados	Condicionador
+Recondicionador 250g	 R$ 25,00 	Diáfora - para cabelos cacheados	Máscara
+Hidratante 300ml	 R$ 25,00 	Diáfora - para cabelos cacheados	Finalizador
+Gloss Selante 300ml	 R$ 32,00 	Diáfora - para cabelos cacheados	Finalizador
