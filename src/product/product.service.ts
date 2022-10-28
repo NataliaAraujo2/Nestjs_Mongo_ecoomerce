@@ -60,7 +60,10 @@ export class ProductService {
   }
 
   async deleteProduct(id: string): Promise<any> {
-    const deletedProduct = await this.productModel.findByIdAndRemove(id);
+    console.log(id);
+    const deletedProduct = await this.productModel.findByIdAndRemove({
+      _id: id,
+    });
     return deletedProduct;
   }
 }
