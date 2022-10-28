@@ -1,0 +1,29 @@
+networks:
+  app_ecommerce:
+
+
+services:
+
+  database:
+    image: mongo:latest
+    networks:
+      - app_ecommerce
+    ports:
+      - 27017:27017
+
+  app:
+    build: .
+    depends_on:
+      - database
+    restart: on-failure
+    networks:
+      - app_ecommerce
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/srv/app
+    command: sh -c "npm install "
+
+
+
+    
